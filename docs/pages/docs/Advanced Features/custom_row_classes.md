@@ -30,9 +30,9 @@ class Users extends Table {
 class User {
   final int id;
   final String name;
-  final DateTime birthDate;
+  final DateTime birthdate;
 
-  User({required this.id, required this.name, required this.birthDate});
+  User({required this.id, required this.name, required this.birthdate});
 }
 ```
 
